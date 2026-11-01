@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.aura.ambientdashboard.ambient.AmbientBackdropView
+        android:id="@+id/backdrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.aura.ambientdashboard.ambient.ParticleFieldView
+        android:id="@+id/particles"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/ambient_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="28dp">
+
+        <TextView
+            android:id="@+id/ambient_clock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:shadowColor="#40000000"
+            android:shadowDy="6"
+            android:shadowRadius="24"
+            android:textColor="#F2F5FF"
+            android:textSize="88sp" />
+
+        <TextView
+            android:id="@+id/ambient_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:alpha="0.82"
+            android:letterSpacing="0.18"
+            android:textColor="#C9D2EC"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/ambient_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:alpha="0.72"
+            android:fontFamily="sans-serif-light"
+            android:letterSpacing="0.06"
+            android:textColor="#9BA6C6"
+            android:textSize="12sp" />
+    </LinearLayout>
+</FrameLayout>

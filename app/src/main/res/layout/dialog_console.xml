@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="22dp"
+    android:paddingTop="10dp">
+
+    <TextView
+        android:id="@+id/console_output"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@color/aura_surface_variant"
+        android:fontFamily="monospace"
+        android:gravity="bottom|start"
+        android:padding="12dp"
+        android:textColor="@color/aura_text_primary"
+        android:textSize="12sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/console_hint">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/console_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:imeOptions="actionSend"
+            android:inputType="text" />
+    </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>

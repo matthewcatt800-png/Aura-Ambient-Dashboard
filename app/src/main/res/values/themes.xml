@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Aura" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/aura_accent_cyan</item>
+        <item name="colorOnPrimary">@color/aura_on_accent</item>
+        <item name="colorPrimaryContainer">@color/aura_surface_variant</item>
+        <item name="colorOnPrimaryContainer">@color/aura_text_primary</item>
+        <item name="colorSecondary">@color/aura_accent_purple</item>
+        <item name="colorSurface">@color/aura_surface</item>
+        <item name="colorOnSurface">@color/aura_text_primary</item>
+        <item name="colorOnSurfaceVariant">@color/aura_text_secondary</item>
+        <item name="android:colorBackground">@color/aura_background</item>
+        <item name="colorSurfaceContainer">@color/aura_surface</item>
+        <item name="colorSurfaceContainerHigh">@color/aura_surface_variant</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

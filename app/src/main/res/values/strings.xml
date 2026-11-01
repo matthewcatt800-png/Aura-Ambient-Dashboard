@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AURA</string>
+    <string name="subtitle_ambient_dashboard">Ambient Dashboard</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_ambient">Ambient</string>
+    <string name="nav_widgets">Widgets</string>
+    <string name="nav_system">System</string>
+    <string name="nav_settings">Settings</string>
+
+    <string name="greeting_morning">Good morning</string>
+    <string name="greeting_afternoon">Good afternoon</string>
+    <string name="greeting_evening">Good evening</string>
+    <string name="greeting_night">Good night</string>
+
+    <string name="widgets_save">Save layout</string>
+    <string name="widgets_load">Load layout</string>
+    <string name="widgets_reset">Reset</string>
+    <string name="widgets_hint">Toggle, reorder and restyle each card. The arrangement is saved automatically.</string>
+
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_clock">Clock</string>
+    <string name="settings_ambient">Ambient</string>
+    <string name="settings_monitoring">Monitoring</string>
+    <string name="settings_weather">Weather</string>
+    <string name="settings_general">General</string>
+    <string name="settings_privacy">AURA reads only what the system already exposes on this device. Nothing leaves the phone except the weather request you choose to make.</string>
+    <string name="console_hint">Type help for commands</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light palette (values-night carries the midnight theme AURA is built around). -->
+    <color name="aura_background">#F3F5FB</color>
+    <color name="aura_surface">#FFFFFF</color>
+    <color name="aura_surface_variant">#E8ECF7</color>
+    <color name="aura_text_primary">#171E33</color>
+    <color name="aura_text_secondary">#5C6784</color>
+    <color name="aura_on_accent">#0A1428</color>
+    <color name="aura_accent_cyan">#0E8FA0</color>
+    <color name="aura_accent_blue">#2C5CD6</color>
+    <color name="aura_accent_purple">#6C55C7</color>
+    <color name="aura_accent_lavender">#8E7CD8</color>
+    <color name="aura_accent_green">#2E8B57</color>
+    <color name="aura_accent_amber">#C47F17</color>
+    <color name="launcher_background">#0A0E1A</color>
+</resources>
